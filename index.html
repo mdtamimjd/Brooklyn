@@ -5,8 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./main.css">
+    <!-- font awesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    
+    <header class="w-full bg-white">
+        <nav class="w-11/12 md:w-10/12 lg:w-8/12 h-24 mx-auto flex justify-between items-center">
+            <span class="text-2xl font-bold text-[#132238] cursor-pointer">
+                <span class="px-3 py-1.5 bg-[#A53DFF] rounded-[50%] text-white font-bold text-xl">B</span>
+                Brooklyn
+            </span>
+            <ul id="navUL" class="md:flex hidden md:gap-0 lg:gap-1 gap-1">
+                <li><a href="" class="text-base font-medium text-[#333333] px-2.5 py-1.5 rounded-md hover:bg-[#A53DFF] hover:text-white hover:transition ease-in duration-500">Home</a></li>
+                <li><a href="" class="text-base font-medium text-[#333333] px-2.5 py-1.5 rounded-md hover:bg-[#A53DFF] hover:text-white hover:transition ease-in duration-500">About</a></li>
+                <li><a href="" class="text-base font-medium text-[#333333] px-2.5 py-1.5 rounded-md hover:bg-[#A53DFF] hover:text-white hover:transition ease-in duration-500">Process</a></li>
+                <li><a href="" class="text-base font-medium text-[#333333] px-2.5 py-1.5 rounded-md hover:bg-[#A53DFF] hover:text-white hover:transition ease-in duration-500">Portfolio</a></li>
+                <li><a href="" class="text-base font-medium text-[#333333] px-2.5 py-1.5 rounded-md hover:bg-[#A53DFF] hover:text-white hover:transition ease-in duration-500">Blog</a></li>
+                <li><a href="" class="text-base font-medium text-[#333333] px-2.5 py-1.5 rounded-md hover:bg-[#A53DFF] hover:text-white hover:transition ease-in duration-500">Services</a></li>
+                <li><a href="" class="text-base font-medium text-[#333333] px-2.5 py-1.5 rounded-md hover:bg-[#A53DFF] hover:text-white hover:transition ease-in duration-500">Contact</a></li>
+            </ul>
+            <div class="md:hidden block cursor-pointer" id="hambar"><i class="fa-solid fa-bars text-2xl font-bold text-[#132238]"></i></div>
+        </nav>
+    </header>
+    <main class="w-full">
+        <section class="">
+            <div class="w-11/12 md:w-10/12 lg:w-8/12 h-24 mx-auto grid grid-cols-12 gap-2 lg:gap-0 lg:pt-5">
+                <div class="lg:col-span-6 col-span-12 flex flex-col justify-between gap-4">
+                    <div class="flex flex-col lg:gap-10 gap-4">
+                    <h1 class="text-[#132238] text-5xl font-bold lg:mt-20 mt-2">Hello, I’m
+                        <br>Brooklyn Gilbert</h1>
+                    <p class="text-[#333333] text-base font-normal">I'm a Freelance UI/UX Designer and Developer based in London, England. I strives to build immersive and beautiful web applications through carefully crafted code and user-centric design.</p>
+                    <span><button class="px-3 py-2 bg-[#A53DFF] text-white rounded-md">Say Hello!</button></span>
+                    </div>
+                    <div class="grid grid-cols-3 gap-1">
+                    <div class="bg-[#EDD8FF] flex justify-center flex-col items-center p-3 rounded-md">
+                        <h3 class="text-xl font-bold text-[#424E60]">15 .y</h3>
+                        <p class="text-[#333333] font-light text-sm mt-1">Experience</p>
+                    </div>
+                    <div class="bg-[#EDD8FF] flex justify-center flex-col items-center p-3 rounded-md">
+                        <h3 class="text-xl font-bold text-[#424E60]">280+</h3>
+                        <p class="text-[#333333] font-light text-sm mt-1">Project Complete</p>
+                    </div>
+                    <div class="bg-[#EDD8FF] flex justify-center flex-col items-center p-3 rounded-md">
+                        <h3 class="text-xl font-bold text-[#424E60]">250</h3>
+                        <p class="text-[#333333] font-light text-sm mt-1">Happy client</p>
+                    </div></div>
+                </div>
+                <div></div>
+                <div class="bg-white shadow-md rounded-md lg:col-span-5 col-span-12"><img src="./img/Rectangle_30-removebg-preview.png" alt="" class="w-full"></div>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+    <script src="./script.js"></script>
 </body>
 </html>
